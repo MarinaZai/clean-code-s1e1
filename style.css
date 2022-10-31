@@ -4,13 +4,14 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+/* Header */
 .page__header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.page__header img {
+.header__img {
     width: 100%;
 }
 .page__header .header__info{
@@ -18,9 +19,10 @@
 }
 
 @media (max-width:768px) {
-.page__headerx { text-align: center;
+.page__header {text-align: center;
 }
 }
+
 .centered-main-page-element {
     display: block;
     width: 500px;
