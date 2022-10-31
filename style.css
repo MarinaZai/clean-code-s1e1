@@ -59,8 +59,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-.page__section_labels{
+.page__section_name{
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -86,11 +85,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.page__section_labels {
+.page__section_name {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+.form__add_task__input {
     width: 318px;
 }
 
@@ -130,7 +129,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.section__completed_tasks label {
     text-decoration: line-through;
     color: #888;
 }
